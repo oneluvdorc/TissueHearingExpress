@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1DC84420F43D580092072E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC84320F43D580092072E /* AppDelegate.swift */; };
+		3B1DC84620F43D580092072E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC84520F43D580092072E /* ViewController.swift */; };
+		3B1DC84920F43D580092072E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1DC84720F43D580092072E /* Main.storyboard */; };
+		3B1DC84B20F43D5F0092072E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1DC84A20F43D5F0092072E /* Assets.xcassets */; };
+		3B1DC84E20F43D5F0092072E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1DC84C20F43D5F0092072E /* LaunchScreen.storyboard */; };
+		3B1DC85820F4450B0092072E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC85720F4450B0092072E /* TableViewController.swift */; };
+		3B1DC85A20F449E20092072E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC85920F449E20092072E /* DetailViewController.swift */; };
+		3B1DC85C20F467220092072E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC85B20F467220092072E /* UserViewController.swift */; };
+		3B1DC85E20F47DF90092072E /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC85D20F47DF90092072E /* FeedbackViewController.swift */; };
+		3B1DC86020F486FD0092072E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC85F20F486FD0092072E /* User.swift */; };
+		3B1DC86220F6E18C0092072E /* ToneGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC86120F6E18C0092072E /* ToneGenerator.swift */; };
+		3B1DC86420F706980092072E /* OverallTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC86320F706980092072E /* OverallTestViewController.swift */; };
+		3B1DC86820F759D70092072E /* LeftRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC86720F759D70092072E /* LeftRightViewController.swift */; };
+		3B1DC86A20F848F60092072E /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC86920F848F60092072E /* FinalViewController.swift */; };
+		3B49238220F86D4500B73844 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B49238120F86D4500B73844 /* sound.mp3 */; };
+		3B49238420F8736B00B73844 /* DetailTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49238320F8736B00B73844 /* DetailTestViewController.swift */; };
+		3B76647620FD98FE008BCD88 /* TonePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B76647520FD98FE008BCD88 /* TonePlayer.swift */; };
+		3B76647820FF03A7008BCD88 /* SoundDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B76647720FF03A7008BCD88 /* SoundDetectionViewController.swift */; };
+		3B76647A20FF2189008BCD88 /* freqBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B76647920FF2188008BCD88 /* freqBar.png */; };
+		3B76648020FF2B73008BCD88 /* progressBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B76647F20FF2B72008BCD88 /* progressBar.png */; };
+		3B7664822100290D008BCD88 /* pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7664812100290C008BCD88 /* pointer.png */; };
+		3B9159C021003497003096E9 /* volumeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9159BF21003496003096E9 /* volumeImage.png */; };
+		3B9159C621003FDF003096E9 /* volumeSubImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9159C521003FDF003096E9 /* volumeSubImage.png */; };
+		3B9159C8210075A9003096E9 /* leftIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9159C7210075A8003096E9 /* leftIcon.png */; };
+		3B9159CA210075B0003096E9 /* rightIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9159C9210075AF003096E9 /* rightIcon.png */; };
+		3B9159CC210084B6003096E9 /* resultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9159CB210084B4003096E9 /* resultImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B1DC84020F43D580092072E /* TissueHearingExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TissueHearingExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1DC84320F43D580092072E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B1DC84520F43D580092072E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B1DC84820F43D580092072E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B1DC84A20F43D5F0092072E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B1DC84D20F43D5F0092072E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B1DC84F20F43D5F0092072E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1DC85720F4450B0092072E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3B1DC85920F449E20092072E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3B1DC85B20F467220092072E /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		3B1DC85D20F47DF90092072E /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		3B1DC85F20F486FD0092072E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3B1DC86120F6E18C0092072E /* ToneGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneGenerator.swift; sourceTree = "<group>"; };
+		3B1DC86320F706980092072E /* OverallTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallTestViewController.swift; sourceTree = "<group>"; };
+		3B1DC86720F759D70092072E /* LeftRightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRightViewController.swift; sourceTree = "<group>"; };
+		3B1DC86920F848F60092072E /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		3B49238120F86D4500B73844 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		3B49238320F8736B00B73844 /* DetailTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTestViewController.swift; sourceTree = "<group>"; };
+		3B76647520FD98FE008BCD88 /* TonePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonePlayer.swift; sourceTree = "<group>"; };
+		3B76647720FF03A7008BCD88 /* SoundDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDetectionViewController.swift; sourceTree = "<group>"; };
+		3B76647920FF2188008BCD88 /* freqBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freqBar.png; sourceTree = "<group>"; };
+		3B76647F20FF2B72008BCD88 /* progressBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progressBar.png; sourceTree = "<group>"; };
+		3B7664812100290C008BCD88 /* pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer.png; sourceTree = "<group>"; };
+		3B9159BF21003496003096E9 /* volumeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeImage.png; sourceTree = "<group>"; };
+		3B9159C521003FDF003096E9 /* volumeSubImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeSubImage.png; sourceTree = "<group>"; };
+		3B9159C7210075A8003096E9 /* leftIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftIcon.png; sourceTree = "<group>"; };
+		3B9159C9210075AF003096E9 /* rightIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightIcon.png; sourceTree = "<group>"; };
+		3B9159CB210084B4003096E9 /* resultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resultImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1DC83D20F43D580092072E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1DC83720F43D580092072E = {
+			isa = PBXGroup;
+			children = (
+				3B1DC84220F43D580092072E /* TissueHearingExpress */,
+				3B1DC84120F43D580092072E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1DC84120F43D580092072E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1DC84020F43D580092072E /* TissueHearingExpress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1DC84220F43D580092072E /* TissueHearingExpress */ = {
+			isa = PBXGroup;
+			children = (
+				3B76647520FD98FE008BCD88 /* TonePlayer.swift */,
+				3B1DC86120F6E18C0092072E /* ToneGenerator.swift */,
+				3B1DC85F20F486FD0092072E /* User.swift */,
+				3B1DC84320F43D580092072E /* AppDelegate.swift */,
+				3B76647720FF03A7008BCD88 /* SoundDetectionViewController.swift */,
+				3B1DC84520F43D580092072E /* ViewController.swift */,
+				3B1DC86320F706980092072E /* OverallTestViewController.swift */,
+				3B1DC86720F759D70092072E /* LeftRightViewController.swift */,
+				3B49238320F8736B00B73844 /* DetailTestViewController.swift */,
+				3B1DC86920F848F60092072E /* FinalViewController.swift */,
+				3B1DC85B20F467220092072E /* UserViewController.swift */,
+				3B1DC85720F4450B0092072E /* TableViewController.swift */,
+				3B1DC85920F449E20092072E /* DetailViewController.swift */,
+				3B1DC85D20F47DF90092072E /* FeedbackViewController.swift */,
+				3B1DC84720F43D580092072E /* Main.storyboard */,
+				3B1DC84A20F43D5F0092072E /* Assets.xcassets */,
+				3B49238120F86D4500B73844 /* sound.mp3 */,
+				3B9159C7210075A8003096E9 /* leftIcon.png */,
+				3B9159C9210075AF003096E9 /* rightIcon.png */,
+				3B9159CB210084B4003096E9 /* resultImage.png */,
+				3B7664812100290C008BCD88 /* pointer.png */,
+				3B9159C521003FDF003096E9 /* volumeSubImage.png */,
+				3B9159BF21003496003096E9 /* volumeImage.png */,
+				3B76647F20FF2B72008BCD88 /* progressBar.png */,
+				3B76647920FF2188008BCD88 /* freqBar.png */,
+				3B1DC84C20F43D5F0092072E /* LaunchScreen.storyboard */,
+				3B1DC84F20F43D5F0092072E /* Info.plist */,
+			);
+			path = TissueHearingExpress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1DC83F20F43D580092072E /* TissueHearingExpress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1DC85220F43D5F0092072E /* Build configuration list for PBXNativeTarget "TissueHearingExpress" */;
+			buildPhases = (
+				3B1DC83C20F43D580092072E /* Sources */,
+				3B1DC83D20F43D580092072E /* Frameworks */,
+				3B1DC83E20F43D580092072E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TissueHearingExpress;
+			productName = TissueHearingExpress;
+			productReference = 3B1DC84020F43D580092072E /* TissueHearingExpress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1DC83820F43D580092072E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jenny Wu";
+				TargetAttributes = {
+					3B1DC83F20F43D580092072E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B1DC83B20F43D580092072E /* Build configuration list for PBXProject "TissueHearingExpress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B1DC83720F43D580092072E;
+			productRefGroup = 3B1DC84120F43D580092072E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1DC83F20F43D580092072E /* TissueHearingExpress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1DC83E20F43D580092072E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B76647A20FF2189008BCD88 /* freqBar.png in Resources */,
+				3B49238220F86D4500B73844 /* sound.mp3 in Resources */,
+				3B9159CA210075B0003096E9 /* rightIcon.png in Resources */,
+				3B76648020FF2B73008BCD88 /* progressBar.png in Resources */,
+				3B9159CC210084B6003096E9 /* resultImage.png in Resources */,
+				3B1DC84E20F43D5F0092072E /* LaunchScreen.storyboard in Resources */,
+				3B1DC84B20F43D5F0092072E /* Assets.xcassets in Resources */,
+				3B9159C8210075A9003096E9 /* leftIcon.png in Resources */,
+				3B9159C021003497003096E9 /* volumeImage.png in Resources */,
+				3B1DC84920F43D580092072E /* Main.storyboard in Resources */,
+				3B9159C621003FDF003096E9 /* volumeSubImage.png in Resources */,
+				3B7664822100290D008BCD88 /* pointer.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1DC83C20F43D580092072E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B76647820FF03A7008BCD88 /* SoundDetectionViewController.swift in Sources */,
+				3B1DC84620F43D580092072E /* ViewController.swift in Sources */,
+				3B1DC85E20F47DF90092072E /* FeedbackViewController.swift in Sources */,
+				3B1DC86420F706980092072E /* OverallTestViewController.swift in Sources */,
+				3B76647620FD98FE008BCD88 /* TonePlayer.swift in Sources */,
+				3B1DC85C20F467220092072E /* UserViewController.swift in Sources */,
+				3B1DC86220F6E18C0092072E /* ToneGenerator.swift in Sources */,
+				3B1DC85820F4450B0092072E /* TableViewController.swift in Sources */,
+				3B1DC86A20F848F60092072E /* FinalViewController.swift in Sources */,
+				3B49238420F8736B00B73844 /* DetailTestViewController.swift in Sources */,
+				3B1DC84420F43D580092072E /* AppDelegate.swift in Sources */,
+				3B1DC85A20F449E20092072E /* DetailViewController.swift in Sources */,
+				3B1DC86820F759D70092072E /* LeftRightViewController.swift in Sources */,
+				3B1DC86020F486FD0092072E /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B1DC84720F43D580092072E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1DC84820F43D580092072E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1DC84C20F43D5F0092072E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1DC84D20F43D5F0092072E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B1DC85020F43D5F0092072E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B1DC85120F43D5F0092072E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B1DC85320F43D5F0092072E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32PKT4USQS;
+				INFOPLIST_FILE = TissueHearingExpress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TissueHearingExpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B1DC85420F43D5F0092072E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32PKT4USQS;
+				INFOPLIST_FILE = TissueHearingExpress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TissueHearingExpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1DC83B20F43D580092072E /* Build configuration list for PBXProject "TissueHearingExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1DC85020F43D5F0092072E /* Debug */,
+				3B1DC85120F43D5F0092072E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1DC85220F43D5F0092072E /* Build configuration list for PBXNativeTarget "TissueHearingExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1DC85320F43D5F0092072E /* Debug */,
+				3B1DC85420F43D5F0092072E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B1DC83820F43D580092072E /* Project object */;
+}
