@@ -1,5 +1,7 @@
 # TissueHearingExpress
 
+written in Swift
+
 layout is only adjusted for the iPhone 8 plus format
 
 tone generator is built with AUAudioUnit, with reference to https://gist.github.com/hotpaw2/630a466cc830e3d129b9
